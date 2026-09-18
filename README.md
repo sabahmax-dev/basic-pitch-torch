@@ -5,7 +5,7 @@ The [provided weights](https://github.com/spotify/basic-pitch/tree/main/basic_pi
 
 ### Usage
 
-For transcribing MIDI files, similar to Basic Pitch:
+For transcribing audio files, similar to Basic Pitch:
 ```python
 from basic_pitch_torch.inference import predict
 
@@ -43,4 +43,3 @@ In `tests/` we show two levels of validation tests using a test audio from [Guit
 
 ### References
 Bittner, Rachel M., et al. "A lightweight instrument-agnostic model for polyphonic note transcription and multipitch estimation." ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022.
-
